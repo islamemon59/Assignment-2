@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .quicksand-uniquifier {
   font-family: "Quicksand", serif;
@@ -55,4 +59,57 @@
 
 .text-light-gray-2{
     color: #666666;
+}
+
+.text-primary{
+    color: #FEA301;
+}
+
+.text-secondary{
+    color: #01ACFD;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.semibold-text{
+    font-weight: 600;
+}
+
+/* nav styles added */
+
+nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo p{
+    font-size: 2rem;
+}
+
+nav .list-items{
+    display: flex;
+    list-style: none;
+    font-size: 1.25rem;
+    gap: 32px;
+}
+
+nav ul li:nth-child(3){
+    color: #05D4DF;
+}
+
+nav ul li:nth-child(4){
+    color: #5D58EF;
+}
+
+nav .fa-solid{
+    display: none;
 }
