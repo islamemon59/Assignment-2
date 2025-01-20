@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.btn-primary{
+    padding: 10px 60px;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.btn-secondary{
+    border: none;
+    outline: none;
+    padding: 10px 47px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.card-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.dark-1{
+    color: #000000;
+}
+
+.dark-2{
+    color: #202020;
+}
+
+.text-light-gray-1{
+    color: #808080;
+}
+
+.text-light-gray-2{
+    color: #666666;
+}
