@@ -116,6 +116,7 @@ nav ul li:nth-child(4){
 
 nav .fa-solid{
     display: none;
+    font-size: 1.87rem;
 }
 
 /* banner styles added  */
@@ -132,11 +133,64 @@ nav .fa-solid{
 
 .banner-title{
     font-size: 3.5rem;
-    line-height: 61px;
 }
 
 .banner-description{
     max-width: 640px;
     font-size: 1.25rem;
     margin-top: -10px;
+}
+
+/* mobile screen media query styles */
+
+@media screen and (max-width: 576px) {
+
+    /* nav media styles */
+
+    nav .list-items, 
+    .logo-text, .nav-btn{
+        display: none;
+    }
+
+    nav{
+        padding: 12px 16px;
+        border: 0.5px solid #FEA301;
+    }
+
+    nav .logo img{
+        width: 46px;
+    }
+
+    nav .fa-solid{
+        display: block;
+    }
+
+    /* banner media styles  */
+
+    .banner{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner .hero-kids{
+        width: 335px;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        max-width: 357px;
+        font-size: 0.87rem;
+        text-align: center;
+    }
+
+    .banner-btn{
+        padding: 6px 24px;
+        font-size: 1rem;
+        border-radius: 8px;
+        line-height: 30px;
+    }
 }
