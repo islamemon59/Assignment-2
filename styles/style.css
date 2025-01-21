@@ -83,9 +83,6 @@ body{
     font-weight: 500;
 }
 
-.text-size{
-    font-size: 1rem;
-}
 
 /* nav styles added */
 
@@ -308,8 +305,9 @@ nav .fa-solid{
 }
 
 .card-tow-text{
+    font-size: 0.9rem;
     padding: 0 40px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .card-one img{
@@ -319,6 +317,7 @@ nav .fa-solid{
 .view-btn{
     position: relative;
     left: 50%;
+    transform: translateX(-50%);
 }
 
 /* mobile screen media query styles */
@@ -376,7 +375,17 @@ nav .fa-solid{
 
     /* features media styles  */
 
+    .features{
+        margin-top: -40px;
+    }
+
+    .feature-title{
+        font-size: 1.6rem;
+    }
+
     .features-box{
+        margin-top: 0;
+        margin-bottom: -80px;
         grid-template-columns: 1fr;
         justify-items: center;
     }
@@ -409,5 +418,45 @@ nav .fa-solid{
 
     .arrow-icon{
         display: none;
+    }
+
+    /* stories media styles added */
+
+    .stories-title{
+        font-size: 1.6rem;
+    }
+
+    .stories-width{
+        margin: 40 auto;
+    }
+
+    .stories-width{
+        flex-direction: column;
+    }
+
+    .story-card-one{
+        display: none;
+    }
+
+    .card-one{
+        max-width: 173px;
+        max-height: 180px;
+    }
+
+    .card-one img{
+        width: 173px;
+        height: 105px;
+    }
+
+    .card-tow-text{
+        font-size: 0.5rem;
+        padding: 0 19px;
+        margin-top: 15px;
+        line-height: 1.1rem;
+    }
+
+    .view-btn{
+        padding: 10px 37px;
+        font-size: 1rem;
     }
 }
