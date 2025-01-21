@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 
 .quicksand-uniquifier {
@@ -320,6 +320,75 @@ nav .fa-solid{
     transform: translateX(-50%);
 }
 
+/* footer styles added  */
+
+.footer{
+    background-color: #01ACFD;
+    padding: 100px 0;
+}
+
+.footer-box{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-content{
+    margin: 0 auto;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.content-box-one-text{
+    max-width: 400px;
+}
+
+.footer-logo img{
+    width: 82px;
+}
+
+.footer-logo-text{
+    font-size: 2.62rem;
+    color: #FFFFFF;
+    margin: 10px 0;
+    line-height: 2.46rem;
+}
+
+.content-box-one-text{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.content-box2-title{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.content-box2 ul{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -55px;
+}
+
+.content-box2 ul li{
+    margin: 15px;
+}
+
+.content-box3-title{
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+.footer-icon-box{
+    letter-spacing: 5px;
+}
 /* mobile screen media query styles */
 
 @media screen and (max-width: 576px) {
@@ -458,5 +527,45 @@ nav .fa-solid{
     .view-btn{
         padding: 10px 37px;
         font-size: 1rem;
+    }
+    
+    /* footer media styles added */
+
+    .footer-box{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-logo img{
+        width: 69px;
+    }
+
+    .footer-logo-text{
+        font-size: 2.18rem;
+    }
+
+    .content-box-one-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .content-box2-title{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .content-box2 ul{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .content-box3-title{
+        font-size: 1.37rem;
+        line-height: 1.37rem;
+    }
+
+    .content-box3 img{
+        width: 34px;
+        margin-top: 15px;
     }
 }
