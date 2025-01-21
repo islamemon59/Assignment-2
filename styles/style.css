@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body{
-    max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .quicksand-uniquifier {
@@ -84,7 +83,16 @@ body{
     font-weight: 500;
 }
 
+.text-size{
+    font-size: 1rem;
+}
+
 /* nav styles added */
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 nav{
     padding: 20px 0;
@@ -155,6 +163,11 @@ nav .fa-solid{
 .feature-title{
     font-size: 2.87rem;
     text-align: center;
+}
+
+.feature-width{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .features-box{
@@ -231,6 +244,83 @@ nav .fa-solid{
     border-radius: 100px;
 }
 
+/* Stories section styles added */
+
+.stories{
+    padding: 60px 0;
+    background-image: linear-gradient(to top ,rgba(254, 163, 1, 0.2) 0%, rgba(255, 255, 255, 1) 100%),url(bg.png);
+    background-size: cover;
+    background-position: top bottom;
+}
+
+.stories-width{
+    max-width: 1440px;
+    margin: 80px auto;
+}
+
+.stories-title{
+    font-size: 2.87rem;
+    text-align: center;
+}
+
+.story-card-one{
+    max-width: 540px;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+
+.card-one-text{
+    padding: 40px;
+}
+
+.story-card-title{
+    font-size: 1.5rem;
+}
+
+.story-card-description{
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.story-card-one .story-1{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.stories-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.story-card-tow{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-one{
+    max-width: 290px;
+    max-height: 300px;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+
+.card-tow-text{
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+.card-one img{
+    border-radius: 16px 16px 0 0;
+}
+
+.view-btn{
+    position: relative;
+    left: 50%;
+}
+
 /* mobile screen media query styles */
 
 @media screen and (max-width: 576px) {
@@ -283,6 +373,8 @@ nav .fa-solid{
         border-radius: 8px;
         line-height: 30px;
     }
+
+    /* features media styles  */
 
     .features-box{
         grid-template-columns: 1fr;
