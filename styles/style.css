@@ -344,6 +344,11 @@ nav .fa-solid{
     left: 3rem;
 }
 
+.marq-text{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* footer styles added  */
 
 .footer{
