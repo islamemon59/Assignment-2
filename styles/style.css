@@ -37,7 +37,18 @@ body{
     cursor: pointer;
 }
 
-.card-btn{
+.card-btn1{
+    padding: 15px 20px;
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #3CD8E8;
+}
+
+.card-btn2{
     padding: 10px 20px;
     border-radius: 48px;
     border: none;
@@ -45,6 +56,7 @@ body{
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
+    background-color: #95B226;
 }
 
 .dark-1{
@@ -320,6 +332,18 @@ nav .fa-solid{
     transform: translateX(-50%);
 }
 
+.child-btn{
+    position: relative;
+    bottom: 6.5rem;
+    left: 2rem;
+}
+
+.parent-btn{
+    position: relative;
+    bottom: 20rem;
+    left: 3rem;
+}
+
 /* footer styles added  */
 
 .footer{
@@ -527,6 +551,23 @@ nav .fa-solid{
     .view-btn{
         padding: 10px 37px;
         font-size: 1rem;
+    }
+
+    .card-btn2{
+        padding: 6px 12px;
+        border-radius: 48px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 0.6rem;
+        font-weight: 500;
+        background-color: #5D58F0;
+    }
+
+    .child-btn{
+        position: relative;
+        bottom: 4.7rem;
+        left: 1.5rem;
     }
     
     /* footer media styles added */
